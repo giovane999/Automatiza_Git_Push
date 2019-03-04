@@ -15,7 +15,7 @@
  	echo " "
 
 	sudo git config --global user.name "$user"
-	sudo git config --global user.name "$email"
+	sudo git config --global user.email "$email"
 
 	sudo git init
 	echo " "
